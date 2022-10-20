@@ -1,0 +1,46 @@
+.main-container {
+	width: calc(100%);
+}
+
+.home-container {
+	padding-block: 3rem;
+	padding-inline: 4rem;
+}
+
+.home-heading {
+	gap: 2rem;
+}
+
+.home-header {
+	font-size: 48px;
+	font-weight: 500;
+}
+
+.username {
+	color: var(--clr-red-accent);
+}
+
+.welcome {
+	font-size: 18px;
+	margin-bottom: 4rem;
+}
+
+.charts-section {
+	width: calc(100%);
+	height: 100%;
+	grid-template-columns: 80%  20%;
+	gap: 2rem;
+}
+
+.main-charts-section {
+	gap: 2rem;
+}
+
+.bottom-charts {
+	gap: 2rem;
+	justify-content: space-between;
+}
+
+.side-section {
+	justify-content: space-between;
+}
