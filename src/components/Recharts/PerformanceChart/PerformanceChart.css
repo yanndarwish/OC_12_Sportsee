@@ -1,0 +1,14 @@
+.radar-chart-wrapper {
+	height: 300px;
+	flex: 1 1 100%;
+	border-radius: 5px;
+	background-color: black;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+
+.radar-chart-wrapper tspan {
+	font-size: 12px;
+}
