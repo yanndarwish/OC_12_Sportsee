@@ -1,0 +1,38 @@
+.radial-bar-chart-wrapper {
+	position: relative;
+	height: 300px;
+	flex: 1 1 100%;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	background-color: var(--clr-bg-light);
+}
+
+.radial-bar-chart-wrapper .chart-title {
+	padding-inline: 2rem;
+	padding-top: 2rem;
+}
+
+.radial-score-center {
+	z-index: 10;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -40%);
+	-webkit-transform: translate(-50%, -40%);
+	-moz-transform: translate(-50%, -40%);
+	-ms-transform: translate(-50%, -40%);
+	-o-transform: translate(-50%, -40%);
+	width: 20%;
+	text-align: center;
+	line-height: 27px;
+	color: grey;
+}
+
+#radial-score-bold {
+	font-weight: 700;
+	font-size: 26px;
+	color: black;
+}
