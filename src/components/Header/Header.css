@@ -1,0 +1,14 @@
+.header {
+    height:90px;
+    justify-content: space-between;
+    align-items: center;
+    padding:2rem;
+    background-color: black;
+}
+
+.main-nav {
+    width:75%;
+    justify-content: space-between;
+    padding-right:5rem;
+    font-size:24px;
+}
