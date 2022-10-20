@@ -1,0 +1,23 @@
+.line-chart-wrapper {
+	/* position: relative; */
+	height: 300px;
+	flex:1 1 100%;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	background-color: var(--clr-red-accent);
+}
+
+.line-chart-tooltip {
+	color: black;
+	background-color: white;
+}
+
+.line-chart-wrapper .chart-title {
+	padding-inline: 2rem;
+	color: white;
+}
