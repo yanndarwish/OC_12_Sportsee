@@ -1,0 +1,19 @@
+.data-switch {
+    position: absolute;
+    top:2rem;
+    left:2rem;
+    opacity:0;
+    transition:0.2s;
+    -webkit-transition:0.2s;
+    -moz-transition:0.2s;
+    -ms-transition:0.2s;
+    -o-transition:0.2s;
+    border:none;
+    background-color: transparent;
+    color:transparent;
+}
+
+.data-switch:hover {
+    color:white;
+    opacity:1;
+}
