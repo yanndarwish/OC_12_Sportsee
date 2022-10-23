@@ -10,17 +10,21 @@ import { useState, useEffect } from "react"
 
 /** @param {fecthUserType} id */
 
+const baseUrl = "http://localhost:3000/user"
+
 export function useFetchUser(id) {
 	const [data, setData] = useState({})
 	const [error, setError] = useState(false)
 	const [isLoading, setLoading] = useState(true)
+
+	
 
 	useEffect(() => {
 		if (!id) return
 
 		async function fetchData() {
 			try {
-				const response = await fetch(`http://localhost:3000/user/${id}`)
+				const response = await fetch(`${baseUrl}/${id}`)
 
 				const data = await response.json()
 
@@ -60,7 +64,7 @@ export function useFetchActivity(id) {
 		async function fetchData() {
 			try {
 				const response = await fetch(
-					`http://localhost:3000/user/${id}/activity`
+					`${baseUrl}/${id}/activity`
 				)
 
 				const data = await response.json()
@@ -101,7 +105,7 @@ export function useFetchPerformance(id) {
 		async function fetchData() {
 			try {
 				const response = await fetch(
-					`http://localhost:3000/user/${id}/performance`
+					`${baseUrl}/${id}/performance`
 				)
 
 				const data = await response.json()
@@ -142,7 +146,7 @@ export function useFetchAverage(id) {
 		async function fetchData() {
 			try {
 				const response = await fetch(
-					`http://localhost:3000/user/${id}/average-sessions`
+					`${baseUrl}/${id}/average-sessions`
 				)
 
 				const data = await response.json()
